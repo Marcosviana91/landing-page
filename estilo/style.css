@@ -103,21 +103,6 @@ main p {
   font-size: 1em;
   line-height: 2em;
 }
-main strong {
-  color: var(--cor4);
-  font-weight: bold;
-}
-main a {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--cor5);
-  background-color: var(--cor1);
-  padding: 2px 6px;
-}
-main a:hover {
-  text-decoration: underline;
-  color: var(--cor4);
-}
 main img {
   width: 100%;
 }
@@ -126,52 +111,10 @@ main img.pequena {
   display: block;
   margin: auto;
 }
-div.video {
-  background-color: var(--cor5);
-  margin-bottom: 35px;
-  margin: 0px -20px 30px -20px;
-  padding: 20px;
-  padding-bottom: 56.5%;
-  position: relative;
-}
-div.video > iframe {
-  position: absolute; /*somente quando o posicionamento for absoluto será possível definir posicionamento top e left*/
-  top: 5%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
-}
-aside {
-  background-color: var(--cor1);
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 3px 3px 8px #00000044;
-}
-aside h3 {
-  background-color: var(--cor4);
-  color: white;
-  padding: 10px;
-  margin: -10px -10px 0px -10px;
-  border-radius: 10px 10px 0px 0px;
-}
-aside > ul {
-  list-style-type: '\2714\00a0\00a0';
-  list-style-position: inside;
-  columns: 2;
-}
 footer {
   background-color: var(--cor5);
   color: white;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 5px;
-}
-footer a {
-  color: white;
-  font-weight: bolder;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
-  color: var(--cor1);
 }
