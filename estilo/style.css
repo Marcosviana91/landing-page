@@ -35,9 +35,9 @@ body {
 header {
   /*background-color: var(--cor4);*/
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-  min-height: 150px;
+  min-height: 100px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 header > h1 {
   color: white;
@@ -57,13 +57,16 @@ header > p {
   text-shadow: 2px 2px 0px #00000044;
 }
 nav {
+  position: sticky;
+  top: 0;
   background-color: var(--cor5);
   padding: 10px;
   box-shadow: 0px 7px 9px #0000005f;
+  z-index: 10;
 }
 nav > a {
   color: var(--cor1);
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
@@ -120,31 +123,33 @@ main h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   row-gap: 5px;
 }
 
 .certificado {
   position: relative;
+  width: 30%;
 }
 .certificado img {
-  width: 250px;
+  /* width: 250px; */
   height: 180px;
 }
 .certificado .descricao {
   position: absolute;
-  width: 240px;
-  height: 170px;
-  top: 5px;
-  left: 5px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 
   background-color: rgba(0, 0, 0, 0.0);
   border-radius: 10px;
   border: 1px solid gray;
   
-  color: white;
+  color: rgba(255, 255, 255, 0);
   text-align: center;
   font-weight: bolder;
+  padding: 5px;
   
   display: flex;
   align-items: center;
@@ -154,6 +159,7 @@ main h3 {
 
 .certificado .descricao:hover {
   border-color: black;
+  color: rgba(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.6);
 }
 footer {
@@ -162,4 +168,18 @@ footer {
   text-align: center;
   font-size: 1em;
   padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    height: 50px;
+  }
+  nav a {
+    height: 200px;
+    /* background-color: red; */
+  }
+  .certificado img {
+    /* width: 200px; */
+    height: 110px;
+  }
 }
