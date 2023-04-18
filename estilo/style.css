@@ -23,6 +23,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 a.externo::after {
   content: '\00a0\1F517';
@@ -110,6 +111,50 @@ main img.pequena {
   max-width: 350px;
   display: block;
   margin: auto;
+}
+
+main h3 {
+  margin: 15px 0;
+}
+.certificados{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 5px;
+}
+
+.certificado {
+  position: relative;
+}
+.certificado img {
+  width: 250px;
+  height: 180px;
+}
+.certificado .descricao {
+  position: absolute;
+  width: 240px;
+  height: 170px;
+  top: 5px;
+  left: 5px;
+
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 10px;
+  border: 1px solid gray;
+  
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  
+  display: flex;
+  align-items: center;
+  
+  transition: 100ms;
+}
+
+.certificado .descricao:hover {
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 footer {
   background-color: var(--cor5);
