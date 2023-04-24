@@ -171,7 +171,7 @@ main h3:hover {
   padding-top: 3em;
 }
 .certificados{
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
