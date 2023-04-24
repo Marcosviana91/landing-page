@@ -94,6 +94,8 @@ nav {
   box-shadow: 0px 7px 9px #0000005f;
   z-index: 10;
 
+  height: 3em;
+
   display: flex;
   justify-content: space-around;
 }
@@ -165,18 +167,18 @@ main h3:hover {
   cursor: pointer;
 }
 
-/* #certificados{
-  padding-top: 40px;
-} */
+#certificados, #portifolio{
+  padding-top: 3em;
+}
 .certificados{
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   row-gap: 5px;
 
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center calc(100% - 3em);
   background-size: contain;
 }
 
@@ -196,7 +198,8 @@ main h3:hover {
   font-weight: 700;
   width: 100%;
   background-color: #83e1ad66;
-  height: min-content;
+  height: 3em;
+  border-radius: 0 0 0 15px;
 }
 
 .certificado {
@@ -247,11 +250,7 @@ footer {
   header h1 {
     height: 50px;
   }
-  nav a {
-    height: 200px;
-    /* background-color: red; */
-  }
-  .certificado img {
+ .certificado img {
     /* width: 200px; */
     height: 110px;
   }
