@@ -180,6 +180,7 @@ main h3:hover {
   background-repeat: no-repeat;
   background-position: center calc(100% - 3em);
   background-size: contain;
+  /* min-height: 500px; */
 }
 
 #curso_em_video {
