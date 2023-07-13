@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+a#facebook {
+    background-color: darkblue;
+}
+
+a#github {
+    background-color: green;
+}
+
+a#instagram {
+    background-color: darkorchid;
+}
+
+a#twitter {
+    background-color: cornflowerblue;
+}
+
+a#youtube {
+    background-color: darkred;
+}
