@@ -12,25 +12,46 @@
 </head>
 
 <body>
-  <div id="ctn_certif_grande" onclick="hide_cert()">
-    <div id="btn_cert_close">
-      <!-- <button onclick="hide_cert()">X</button> -->
-    </div>
-    <img id="img_certif_grande" src="">
+  <div class="text-end position-absolute w-100 d-none">
+    <div class="pe-5 d-block d-sm-none bg-primary">extra small</div>
+    <div class="pe-5 d-none d-sm-block d-md-none bg-secondary">small</div>
+    <div class="pe-5 d-none d-md-block d-lg-none bg-success">medium</div>
+    <div class="pe-5 d-none d-lg-block d-xl-none bg-info">large</div>
+    <div class="pe-5 d-none d-xl-block d-xxl-none bg-warning">extra large</div>
+    <div class="pe-5 d-none d-xxl-block bg-danger">extra extra large</div>
   </div>
-  <header>
-    <h1>Marcos Viana</h1>
-    <p> Entusiasta apaixonado por tecnologia, estudando programação. </p>
+  <header class="nav navbar-expand-lg align-items-center justify-content-around">
+    <div class="text-center col-12 col-lg-6 navbar-toggler" data-bs-toggle="collapse" data-bs-target="#header_menu">
+      <h1 class="m-0">Marcos Viana</h1>
+      <p>Entusiasta apaixonado por tecnologia, estudando programação.</p>
+    </div>
+    <div class="text-center col-12 col-lg-6 d-none d-lg-block">
+      <h1 class="m-0">Marcos Viana</h1>
+      <p>Entusiasta apaixonado por tecnologia, estudando programação.</p>
+    </div>
+    <div>
+      <nav id="header_menu" class="navbar-collapse collapse rounded">
+        <ul class="nav nav-pills justify-content-evenly flex-nowrap align-items-center text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificados">Certificados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portifolio">Portifólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#redes-sociais">Redes Sociais</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <nav>
-    <a href="#certificados">Certificados</a>
-    <a href="#portifolio">Portifólio</a>
-    <a href="#redes-sociais">Redes Sociais</a>
-    <a href="#">Contato</a>
-  </nav>
-  <main>
-    <article>
-      <h1>Um pouco sobre min.</h1>
+
+  <main class="scroll-spy container-lg" data-bs-spy="scroll" data-bs-target="#header_menu" data-bs-smooth-scroll="true">
+    <section>
+      <h1 id="sobre">Sobre</h1>
       <p>
         Apaixonado por tecnologia, sempre a viu como um hobbie, mas somente em 2022, aos 31 anos, decidiu fazer a
         migração de carreira para área de programação.
@@ -42,10 +63,6 @@
             target="_blank">UniFATECIE</a>
         </li>
         <li>
-          <em>Trilha Especializar</em> - JavaScript, NodeJS e React, na <a href="https://www.rocketseat.com.br/"
-            target="_blank">RocketSeat</a>.
-        </li>
-        <li>
           <em>Desenvolvedor Full Stack Python</em> - Iniciando, na <a href="https://ebaconline.com.br/"
             target="_blank">EBAC</a>.
         </li>
@@ -54,8 +71,9 @@
         <source srcset="imagens/dan-droids-x450.png" media="(max-width: 400px)" />
         <img src="imagens/dan-droids-x800.png" alt="Progresso Curso em Vídeos" />
       </picture>
-      <div id="certificados">
-        <h2>Certificados</h2>
+    </section>
+    <!-- <section>
+        <h2 id="certificados">Certificados</h2>
         <h3>Curso em Vídeo</h3>
         <div id="curso_em_video" class="certificados">
           <div class="certificado">
@@ -119,11 +137,10 @@
               href="https://educacao.fit-tecnologia.org.br/certificates/e2e65d9c95444627be0ec66bd71f0f95"
               target="_blank">Start IoT</a></p>
         </div>
-      </div>
-      <div id="portifolio">
-
-        <h2> Portifólio </h2>
-        <h3>Curso em Vídeo</h3>
+      </section>
+      <section>
+        <h1 id="portifolio">Portifólio</h1>
+        <h2>Curso em Vídeo</h2>
         <ul>
           <li>
             <a href="https://github.com/Marcosviana91/web/tree/main/desafios/d012" target="_blank">Desafio
@@ -142,23 +159,56 @@
             <a href="https://ebac-m10-exercicio.vercel.app/">Fundamentos de CSS Responsivo</a>
           </li>
         </ul>
+      </section> -->
+    <section id="social">
+      <h1 id="redes-sociais">Redes Sociais</h1>
+      <div class="row">
+        <div class="col-6 d-flex justify-content-center pt-3">
+          <ul class="d-block d-lg-none ">
+            <li>
+              <a href="https://www.linkedin.com/in/marcos-ant%C3%B4nio-gonzaga-viana-176307132/"
+                target="_blank">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Ghimel.Tsade" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/marcos.viana.91/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://github.com/Marcosviana91" target="_blank">Github</a>
+            </li>
+          </ul>
+          <ul class="d-none d-lg-block">
+            <li>
+              <a href="linkedin.html"
+                target="tela">LinkedIn</a>
+            </li>
+            <li>
+              <a href="facebook.html" target="tela">Facebook</a>
+            </li>
+            <li>
+              <a href="instagram.html" target="tela">Instagram</a>
+            </li>
+            <li>
+              <a href="github.html" target="tela">Github</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 d-none d-lg-block" id="telefone">
+          <iframe src="home.html" name="tela" id="tela" frameborder="0"></iframe>
+        </div>
       </div>
-      <div id="redes-sociais">
-        <h2>Redes Sociais</h2>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/marcos-ant%C3%B4nio-gonzaga-viana-176307132/" target="_blank">LinkedIn</a>
-          </li>
-        </ul>
+    </section>
+    <footer class="d-flex align-items-center justify-content-center mt-3">
+      <!-- <p><small>Faça com amor, como ao Senhor</small></p> -->
+      <div>
+        <strong>Marcos Viana</strong> - <a
+          href="https://www.linkedin.com/in/marcos-ant%C3%B4nio-gonzaga-viana-176307132/" target="_blank">LinkedIn</a> -
+        <a href="https://github.com/Marcosviana91" target="_blank">Github</a>
       </div>
-    </article>
+    </footer>
   </main>
-  <footer>
-    <!-- <p><small>Faça com amor, como ao Senhor</small></p>
-    <p> -->
-      <strong>Marcos Viana</strong> - <a href="https://www.linkedin.com/in/marcos-ant%C3%B4nio-gonzaga-viana-176307132/"  target="_blank">LinkedIn</a> - <a href="https://github.com/Marcosviana91" target="_blank">Github</a>.
-    </p>
-  </footer>
   <script src="libs/jquery/jquery-3.7.0.min.js"></script>
   <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="libs/style.css"></script>
