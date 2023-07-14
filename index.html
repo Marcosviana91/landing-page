@@ -7,8 +7,8 @@
   <title>Marcos Viana | Página inicial</title>
   <!-- Trocar o favicon -->
   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="libs/bootstrap/css_bootstrap.min.css">
-  <link rel="stylesheet" href="libs/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./libs/style.css" type="text/css"/>
 </head>
 
 <body>
@@ -53,8 +53,7 @@
     <section>
       <h1 id="sobre">Sobre</h1>
       <p>
-        Apaixonado por tecnologia, sempre a viu como um hobbie, mas somente em 2022, aos 31 anos, decidiu fazer a
-        migração de carreira para área de programação.
+        Apaixonado por tecnologia, sempre a viu como um hobbie, mas somente em 2022, aos 31 anos, decidiu fazer a migração de carreira para área de programação.
       </p>
       <h2> Atualmente </h2>
       <ul id="lista_atualmente">
@@ -63,7 +62,7 @@
             target="_blank">UniFATECIE</a>
         </li>
         <li>
-          <em>Desenvolvedor Full Stack Python</em> - Iniciando, na <a href="https://ebaconline.com.br/"
+          <em>Desenvolvedor Full Stack Python</em> - na <a href="https://ebaconline.com.br/"
             target="_blank">EBAC</a>.
         </li>
       </ul>
@@ -142,7 +141,7 @@
       <h1 id="portifolio">Portifólio</h1>
       <div id="portifolio-curso-em-video">
         <h2>Curso em Vídeo</h2>
-        <div class="row d-flex gy-2 justify-content-evenly">
+        <div class="row d-flex gy-2 justify-content-evenly mb-2">
 <!-- Card -->
             <div class="col-lg-4">
               <div class="card">
@@ -150,14 +149,14 @@
                 <div class="card-body">
                   <h5 class="card-title">Projeto Social</h5>
                   <div class="card-text">
-                    <p><small>Neste pequeno projeto, é explorado o uso do iframe, alterando o conteúdo do mesmo ao clicar nos links flutuantes das redes sociais na lateral direta do site.</small></p>
-                    <button>HTML5</button>
-                    <button>CSS</button>
-                    <button disabled="disabled">JS</button>
-                    <button disabled="disabled">Mobile First</button>
-                    <button disabled="disabled">SEO</button>
+                    <p><small>Neste pequeno projeto, é explorado o uso do iframe, alterando o conteúdo do mesmo ao clicar nos links flutuantes das redes sociais na lateral direita do site.</small></p>
+                    <span class="tec-used" data-bs-toggle="tooltip" title="Default tooltip">HTML5</span>
+                    <span class="tec-used">CSS3</span>
+                    <span class="tec-not-used">JS</span>
+                    <span class="tec-not-used">Responsividade</span>
+                    <span class="tec-not-used">SEO</span>
                   </div>
-                  <a class="btn btn-primary w-100" href="portifolio/projeto-social/index.html" target="_blank">Visitar</a>
+                  <a class="btn btn-primary w-100 mt-2" href="portifolio/projeto-social/index.html" target="_blank">Visitar</a>
                 </div>
               </div>
             </div>
@@ -169,13 +168,37 @@
                   <h5 class="card-title">Efeito Paralax</h5>
                   <div class="card-text">
                     <p><small>Parallax é uma técnica visual que cria a ilusão de profundidade e imersão, fazendo com que os objetos pareçam se mover de maneira diferente, neste caso o background</small>.</p>
-                    <button>HTML5</button>
-                    <button>CSS</button>
-                    <button disabled="disabled">JS</button>
-                    <button disabled="disabled">Mobile First</button>
-                    <button disabled="disabled">SEO</button>
+                    <span class="tec-used">HTML5</span>
+                    <span class="tec-used">CSS</span>
+                    <span class="tec-not-used">JS</span>
+                    <span class="tec-not-used">Mobile First</span>
+                    <span class="tec-not-used">SEO</span>
                   </div>
-                  <a class="btn btn-primary w-100" href="portifolio/efeito-paralax/index.html" target="_blank">Visitar</a>
+                  <a class="btn btn-primary w-100 mt-2" href="portifolio/efeito-paralax/index.html" target="_blank">Visitar</a>
+                </div>
+              </div>
+            </div>
+<!-- Card -->
+        </div>
+      </div>
+      <div id="portifolio-documentacao">
+        <h2>Documentação</h2>
+        <div class="row d-flex gy-2 justify-content-evenly mb-2">
+<!-- Card -->
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="imagens/portifolio/doc_jquery.png" alt="print do projeto social">
+                <div class="card-body">
+                  <h5 class="card-title">jQuery</h5>
+                  <div class="card-text">
+                    <p><small>Este pequeno projeto tenta explorar e exemplificar alguns itens da documentação do jQuery, ultilizando o mínimo possível de conteúdo extra.</small></p>
+                    <span class="tec-used">HTML5</span>
+                    <span class="tec-used">CSS3</span>
+                    <span class="tec-used" data-bs-toggle="tooltip" title="jQuery">JS</span>
+                    <span class="tec-not-used">Responsividade</span>
+                    <span class="tec-not-used">SEO</span>
+                  </div>
+                  <a class="btn btn-primary w-100 mt-2" href="portifolio/jquery/index.html" target="_blank">Visitar</a>
                 </div>
               </div>
             </div>
@@ -232,8 +255,8 @@
     </footer>
   </main>
   <script src="libs/jquery/jquery-3.7.0.min.js"></script>
-  <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="libs/style.css"></script>
+  <script src="libs/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="libs/script.js"></script>
 </body>
 
 </html>

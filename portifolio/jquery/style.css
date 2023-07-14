@@ -1,0 +1,16 @@
+.container {
+    margin: auto;
+    width: 50vw;
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 0 15px;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#interagir {
+    background-color: #aaa;
+    position: absolute;
+    width: calc(100% - 30px);
+}

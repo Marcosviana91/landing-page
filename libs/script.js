@@ -1,18 +1,18 @@
-document.querySelectorAll('.certificado').forEach((div) => {
-    div.children[1].addEventListener("click", () => {
-        div.firstElementChild.attributes.src.value
-        ctn_certif_grande.firstElementChild.nextElementSibling.setAttribute('src', div.firstElementChild.attributes.src.value)
-        ctn_certif_grande.style.display = "flex";
-    })
-})
+$(document).ready(function () {
+    // bootstrap tolltips
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-function hide_cert() {
-    document.getElementById("ctn_certif_grande").style.display = "none";
-}
-
-document.querySelectorAll("#certificados h3").forEach(item => {
-    item.addEventListener('click', (evt) => {
-        if (evt.target.nextElementSibling.style.display == 'flex') evt.target.nextElementSibling.style.display = "none"
-        else evt.target.nextElementSibling.style.display = 'flex'
+    document.querySelectorAll(".tec-used").forEach(function (el){
+        console.log(el);
+        el.classList.add("badge");
+        el.classList.add("rounded-pill");
+        el.classList.add("text-bg-primary");
     })
-})
+    document.querySelectorAll(".tec-not-used").forEach(function (el){
+        console.log(el);
+        el.classList.add("badge");
+        el.classList.add("rounded-pill");
+        el.classList.add("text-bg-secondary");
+    })
+});
