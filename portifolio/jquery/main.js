@@ -61,7 +61,13 @@ $(document).ready(function () {
             $("#elemento1").append(`<option value="${valueOfElement}">${valueOfElement}</option>`);
         })
 
-        
+        function limparFiltro() {
+            $.each($("#seletores #interagir *"), function (indexInArray, valueOfElement) {
+                $(valueOfElement).css({
+                    border: "3px solid transparent"
+                });
+            });
+        }
         function preFiltrar() {
             let elemento1 = $("#elemento1").val();
             let tipo_filtro = $("#tipo_filtro").val();
@@ -80,6 +86,7 @@ $(document).ready(function () {
 
         };
         function filtrar() {
+            limparFiltro();
             let elemento1 = $("#elemento1").val();
             let tipo_filtro = $("#tipo_filtro").val();
             let elemento_alvo = $("#elemento-alvo").val();
@@ -88,7 +95,7 @@ $(document).ready(function () {
                 var lista_elementos_filtrados = $(`#seletores #interagir ${elemento1} ${tipo_filtro} ${elemento_alvo}`)
                 $.each(lista_elementos_filtrados, function (indexInArray, valueOfElement) {
                     $(valueOfElement).css({
-                        border: "2px dotted red"
+                        border: "3px solid red"
                     });
                 });
             }
