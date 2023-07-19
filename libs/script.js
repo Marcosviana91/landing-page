@@ -1,4 +1,4 @@
-import {} from "./jquery/jquery-3.7.0.min.js";
+import { } from "./jquery/jquery-3.7.0.min.js";
 
 $(function () {
     // bootstrap tolltips
@@ -27,10 +27,22 @@ $(function () {
 
     //Modal
     const modal_certificado = new bootstrap.Modal('#modal_certificado');
-    $('.certificados .card img').each((index, element)=>{
-        $(element).on("click",()=>{
+    $('.certificados .card img').each((index, element) => {
+        $(element).on("click", () => {
             $('#modal_certificado img').attr('src', $(element).attr('src').replace('/card', ''));
             modal_certificado.show();
         })
     })
+
+    //QR Code
+    const url_atual = window.location.href;
+    var qrcode = new QRCode(document.getElementById("qrcode"), {
+        width: 200,
+        height: 200
+    });
+    function makeCode() {
+        qrcode.makeCode(url_atual);
+    }
+    makeCode();
+
 });
