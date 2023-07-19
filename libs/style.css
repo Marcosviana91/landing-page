@@ -85,6 +85,8 @@ main h3 {
   border-radius: 5px 0 0 0;
   font-size: 1em;
   transition: 200ms;
+  margin-left: 0.5em;
+  padding-left: .1em;
 }
 main h3:hover {
   filter: brightness(0.4);
@@ -95,19 +97,49 @@ main p {
   text-indent: 0.5in;
 }
 
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  cursor: pointer;
+}
 
 #curso_em_video {
+  background-color: blue;
   background-image: url("../imagens/fundo/fundo_cursoemvideo.png");
+  background-repeat: repeat-x;
+  background-size: 100%;
+  /* background-position: 70px -15px; */
+  border-top-left-radius: 5px;
 }
 #rocketseat {
+  background-color: #121214;
   background-image: url("../imagens/fundo/fundo_rocketseat.png");
+  background-repeat: repeat-x;
+  background-size: 100%;
+  /* background-position: -70px -15px; */
+  border-top-left-radius: 5px;
 }
 #FIT {
+  background-color: whitesmoke;
   background-image: url("../imagens/fundo/fundo_FIT.png");
+  background-repeat: repeat-x;
+  background-size: 100%;
+  /* background-position: 10px -10px; */
+  border-top-left-radius: 5px;
 }
 iframe{
   width: 150px;
   height: 300px;
+}
+
+#qrcode div {
+  max-width: 200px;
+}
+
+.modal-body img {
+  max-height: 80vh !important;
 }
 footer {
   background-color: var(--cor5);
