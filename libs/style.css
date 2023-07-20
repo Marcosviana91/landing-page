@@ -101,7 +101,7 @@ main p {
   overflow: hidden;
 }
 
-.card img {
+.certificados .card img {
   cursor: pointer;
 }
 
