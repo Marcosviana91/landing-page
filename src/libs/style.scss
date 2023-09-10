@@ -111,6 +111,21 @@ main {
   overflow: hidden;
 }
 
+.certificados {
+  min-height: 20vh;
+  margin: 5px 0;
+
+  h3 {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+
+    &.closed {
+      height:1.5em;
+    }
+  }
+}
+
 .certificados .card img {
   cursor: pointer;
 }

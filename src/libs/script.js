@@ -9,6 +9,7 @@ $(function () {
     $('.certificados h3').each(function (i, el) {
         $(el.nextElementSibling).hide();
         $(el).on("click", function (evt) {
+            el.classList.toggle('closed')
             $(el.nextElementSibling).slideToggle();
         })
     })
