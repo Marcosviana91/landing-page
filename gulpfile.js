@@ -54,10 +54,12 @@ exports.default = function () {
     gulp.watch("./src/libs/*.scss", { ignoreInitial: false }, gulp.series(compilaSass))
     gulp.watch("./src/**/*.css", { ignoreInitial: false }, gulp.series(minifyCss))
 }
-exports.dist = function () {
-    gulp.watch("./src/**/*.html", { ignoreInitial: false }, gulp.series(minifyHtml))
-    gulp.watch("./src/styles/*.scss", { ignoreInitial: false }, gulp.series(compilaSass))
-    gulp.watch("./src/**/*.js", { ignoreInitial: false }, gulp.series(comprimeJavaScript))
-    gulp.watch("./src/**/*.css", { ignoreInitial: false }, gulp.series(minifyCss))
-    gulp.watch("./src/**/*", { ignoreInitial: false }, gulp.series(comprimeImg))
-}
+
+exports.dist = gulp.series(minifyHtml, compilaSass, comprimeJavaScript, minifyCss, comprimeImg)
+// exports.dist = function () {
+//     gulp.series(minifyHtml)
+//     gulp.series(compilaSass)
+//     gulp.series(comprimeJavaScript)
+//     gulp.series(minifyCss)
+//     gulp.series(comprimeImg)
+// }
