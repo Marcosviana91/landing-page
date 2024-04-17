@@ -1,4 +1,4 @@
-import StyledHeader from '../style'
+import StyledHeader from './style'
 
 function Header() {
   return (
