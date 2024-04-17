@@ -1,6 +1,9 @@
+import Header from '../../containers/Header'
+
 const Home = () => (
   <>
-    <section>
+    <Header />
+    {/* <section>
       <h1 id="sobre">Sobre</h1>
       <p>
         Apaixonado por tecnologia, sempre a viu como um hobbie, mas somente em
@@ -52,7 +55,7 @@ const Home = () => (
           Github
         </a>
       </div>
-    </footer>
+    </footer> */}
   </>
 )
 
