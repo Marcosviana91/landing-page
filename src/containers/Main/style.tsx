@@ -4,6 +4,7 @@ const StyledMain = styled.main`
   background-color: #010031a6;
   width: 100vw;
   height: calc(100vh - 143px);
+  overflow: hidden;
 
   display: flex;
   justify-content: center;

@@ -9,7 +9,7 @@ const StyledUnderlay = styled.div`
   top: 110px;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 143px);
+  height: calc(100vh - 142px);
 
   display: flex;
   align-items: center;
