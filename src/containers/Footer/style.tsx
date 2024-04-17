@@ -5,7 +5,9 @@ const StyledFooter = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: #1e1d3d;
+
+  color: #cccccc;
 
   > div {
     width: 100%;
@@ -16,6 +18,7 @@ const StyledFooter = styled.footer`
     gap: 16px;
 
     a {
+      color: #cccccc;
       font-size: 24px;
       line-height: 16px;
     }
