@@ -12,6 +12,16 @@ const EstiloGlobal = createGlobalStyle`
     display: none
   }
 
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+
   ul li {
     list-style: none
   }
