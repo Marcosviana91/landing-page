@@ -3,6 +3,7 @@ import StyledSobre from './style'
 function Sobre() {
   return (
     <StyledSobre className="container">
+      <img src="https://github.com/marcosviana91.png" alt="" srcSet="" />
       <h1 id="sobre">Sobre</h1>
       <p>
         Apaixonado por tecnologia, sempre a viu como um hobbie. Então decidiu
@@ -23,35 +24,6 @@ function Sobre() {
           </a>
           .
         </li>
-        <div>
-          <h2>Techs</h2>
-          <p>Front-End</p>
-          <ul>
-            <li>SASS</li>
-            <li>LESS</li>
-            <li>Gulp</li>
-            <li>Grunt</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Tailwind</li>
-            <li>Styled-Components</li>
-            <li>Framer-Motion</li>
-          </ul>
-          <p>Back-End</p>
-          <ul>
-            <li>NGINX</li>
-            <li>Docker</li>
-            <li>Linux</li>
-            <li>Python</li>
-            <li>FastAPI</li>
-            <li>Uvicorn</li>
-            <li>Gunicorn</li>
-            <li>REST</li>
-            <li>GaphQL</li>
-            <li>SQLModel</li>
-          </ul>
-        </div>
       </ul>
     </StyledSobre>
   )
