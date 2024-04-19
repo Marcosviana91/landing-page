@@ -1,8 +1,27 @@
 {
   "name": "landing-page",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "Minha landing page",
   "main": "index.js",
+=======
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^11.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.0.8",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+>>>>>>> v2-react+styled-components+framer-motion
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp",
@@ -13,6 +32,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-htmlmin": "^5.0.1",
@@ -21,5 +41,18 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.65.1"
+=======
+    "@types/react-input-mask": "^3.0.5",
+    "@types/react-router-hash-link": "^2.4.9",
+    "@types/styled-components": "^5.1.28",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.4"
+>>>>>>> v2-react+styled-components+framer-motion
   }
 }
