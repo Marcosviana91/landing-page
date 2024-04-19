@@ -1,5 +1,4 @@
-npm init
-npm i -D sass gulp gulp-sass gulp-imagemin@7.1.0 gulp-uglify gulp-sourcemaps gulp-htmlmin gulp-cssmin
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
