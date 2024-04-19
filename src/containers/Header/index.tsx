@@ -18,12 +18,12 @@ function Header(props: Props) {
           >
             Sobre
           </li>
-          <li
+          {/* <li
             className={props.navBarActivate === 'jobs' ? 'active' : ''}
             onClick={() => props.setNavBarActivate('jobs')}
           >
             Portifólio
-          </li>
+          </li> */}
           <li
             className={props.navBarActivate === 'social' ? 'active' : ''}
             onClick={() => props.setNavBarActivate('social')}
