@@ -1,8 +1,6 @@
 npm init
 npm i -D sass gulp gulp-sass gulp-imagemin@7.1.0 gulp-uglify gulp-sourcemaps gulp-htmlmin gulp-cssmin
 
-<<<<<<< HEAD
-=======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -20,4 +18,3 @@ ___
 Após instalar as dependências rode:
 > `npx eslint --fix .`
 ___
->>>>>>> v2-react+styled-components+framer-motion
