@@ -1,5 +1,5 @@
-import StyledUnderlay from './style'
 import { motion } from 'framer-motion'
+import StyledUnderlay from './style'
 
 function sortDistance() {
   const distance = ['close', 'far', '']
@@ -12,7 +12,6 @@ function sortXAnimation() {
   ]
   return X[Math.floor(Math.random() * X.length)]
 }
-
 function sortOpacity() {
   const opacity = [
     [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
@@ -24,11 +23,9 @@ function sortOpacity() {
   ]
   return opacity[Math.floor(Math.random() * opacity.length)]
 }
-
 function sortDelayAnimation() {
   return Math.floor(Math.random() * 10)
 }
-
 function sortFontColor() {
   const color = [
     '#ffffff',
@@ -43,7 +40,6 @@ function sortFontColor() {
   ]
   return color[Math.floor(Math.random() * color.length)]
 }
-
 function sortTechs() {
   let techs = [
     'Front-End',
@@ -76,11 +72,8 @@ function sortTechs() {
     tempArray.push(techs[_index])
     techs = techs.filter((tech) => tech != techs[_index])
   }
-  console.log(tempArray)
-
   return tempArray
 }
-
 function Underlay() {
   return (
     <StyledUnderlay>
