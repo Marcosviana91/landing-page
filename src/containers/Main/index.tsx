@@ -1,19 +1,16 @@
+import Portifolio from '../Portifolio'
 import Sobre from '../Sobre'
+import Social from '../Social'
 import StyledMain from './style'
-
-function Main() {
+type Props = {
+  navBarActivate: string
+}
+function Main(props: Props) {
   return (
     <StyledMain>
-      <Sobre />
-      {/* <section>
-      <h1 id="portifolio">Portifólio</h1>
-      <div>
-        <h2>Front-End</h2>
-      </div>
-      <div>
-        <h2>Back-End</h2>
-      </div>
-    </section> */}
+      {props.navBarActivate === 'about' && <Sobre />}
+      {props.navBarActivate === 'jobs' && <Portifolio />}
+      {props.navBarActivate === 'social' && <Social />}
     </StyledMain>
   )
 }
