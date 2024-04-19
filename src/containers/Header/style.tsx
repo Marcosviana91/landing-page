@@ -7,7 +7,7 @@ const StyledHeader = styled.header`
   flex-direction: column;
   align-items: center;
 
-  background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+  background-image: linear-gradient(to bottom, #474672, #1e1d3d);
 
   h1,
   p {
@@ -30,13 +30,14 @@ const StyledHeader = styled.header`
       row-gap: 16px;
 
       li {
-        background-color: green;
-        padding: 4px 16px;
-        border: 1px solid white;
-        cursor: pointer;
+        background-color: #1e1d3d;
+        padding: 0px 16px;
+        border: 1px solid #474672;
 
-        color: black;
         font-weight: 700;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
 
         &:first-child {
           border-top-left-radius: 12px;
@@ -49,9 +50,9 @@ const StyledHeader = styled.header`
         }
 
         &.active {
-          background-color: blue;
+          background-color: #474672;
           border: 1px solid black;
-          color: white;
+          color: black;
         }
       }
     }
