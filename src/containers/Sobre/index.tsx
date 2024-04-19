@@ -3,7 +3,7 @@ import StyledSobre from './style'
 function Sobre() {
   return (
     <StyledSobre className="container">
-      <img src="https://github.com/marcosviana91.png" alt="" srcSet="" />
+      <img src="https://github.com/marcosviana91.png" />
       <h1 id="sobre">Sobre</h1>
       <p>
         Apaixonado por tecnologia, sempre a viu como um hobbie. Então decidiu
