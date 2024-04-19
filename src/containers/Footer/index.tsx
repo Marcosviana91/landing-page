@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import StyledFooter from './style'
 
 // Icons
@@ -8,20 +9,22 @@ function Footer() {
     <StyledFooter>
       <div className="container">
         <strong>Marcos Viana</strong>
-        <a
+        <motion.a
+          layoutId="my-linkedin"
           href="https://www.linkedin.com/in/marcos-viana-full-stack-python/"
           target="_blank"
           rel="noreferrer"
         >
           <FaLinkedin />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
+          layoutId="my-github"
           href="https://github.com/Marcosviana91"
           target="_blank"
           rel="noreferrer"
         >
           <FaGithub />
-        </a>
+        </motion.a>
       </div>
     </StyledFooter>
   )
