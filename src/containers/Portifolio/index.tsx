@@ -15,7 +15,7 @@ function Portifolio() {
         <h2>Front-End</h2>
         <div id="patricia">
           <h3>Patrícia Negrão Consultoria</h3>
-          <img src={patriciaImg} alt="" />
+          <img src={patriciaImg} alt="Screenshot da página" />
           <ul>
             <li>jQuery</li>
             <li>Bootstrap</li>
@@ -38,14 +38,36 @@ function Portifolio() {
           </ul>
         </div>
       </div>
-      <div>
+      <div id="backend">
         <h2>Back-End</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit aperiam
-          voluptates illo temporibus, quasi iusto neque eaque voluptatibus
-          consectetur maxime excepturi expedita perferendis sint corrupti
-          explicabo! Dignissimos nihil ea maxime.
-        </p>
+        <div id="chat">
+          <h3>Chat com FastAPI</h3>
+          <iframe
+            width="350"
+            height="200"
+            src="https://www.youtube.com/embed/wgB1z0zqKw8?si=HpnDtdTTFdOg9Ur3&amp;controls=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+          <ul>
+            <li>FastAPI</li>
+            <li>Docker</li>
+            <li>GraphQL</li>
+            <li>React</li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://github.com/Marcosviana91/projeto_pessoal.CHAT_BACK-END">
+                Veja a fonte
+              </a>
+            </li>
+            <li>
+              <a href="http://marcosvianadev2.ddns.net:3133/chat">Visitar</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </StyledPortifolio>
   )
