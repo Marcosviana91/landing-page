@@ -1,12 +1,13 @@
 import { styled } from 'styled-components'
 
 const StyledHeader = styled.header`
-  height: 15vh;
+  height: 20vh;
+  padding-top: 5vh;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #010031a6; */
+  /* background-color: red; */
   background-image: linear-gradient(to bottom, #010031 40%, #010031a6);
 
   h1,
