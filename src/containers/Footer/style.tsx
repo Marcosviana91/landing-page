@@ -3,12 +3,13 @@ import { styled } from 'styled-components'
 const StyledFooter = styled.footer`
   position: absolute;
   bottom: 0;
-  height: 2rem;
+  height: 5vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1d3d99;
+  /* background-color: #010031a6; */
+  background-image: linear-gradient(to top, #010031 40%, #010031a6);
 
   color: #cccccc;
 
