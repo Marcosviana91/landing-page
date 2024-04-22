@@ -31,6 +31,10 @@ const StyledHeader = styled.header`
       row-gap: 16px;
 
       li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         background-color: #1e1d3d;
         padding: 0px 16px;
         border: 1px solid #474672;
