@@ -10,7 +10,7 @@ const StyledSocial = styled.section`
     width: 100px;
     float: left;
     margin: 0 16px;
-    border-radius: 25%;
+    border-radius: 50%;
     box-shadow: 0px 0px 4px 4px #000000f0;
   }
 

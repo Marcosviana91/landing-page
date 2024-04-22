@@ -6,8 +6,8 @@ const StyledHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  background-image: linear-gradient(to bottom, #474672, #1e1d3d);
+  /* background-color: #010031a6; */
+  background-image: linear-gradient(to bottom, #010031 40%, #010031a6);
 
   h1,
   p {
