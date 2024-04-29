@@ -33,7 +33,13 @@ function Portifolio() {
               </a>
             </li>
             <li>
-              <a href="https://www.patricianegraocruz.com.br/">Visite o site</a>
+              <a
+                href="https://www.patricianegraocruz.com.br/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visitar
+              </a>
             </li>
           </ul>
         </div>
@@ -59,12 +65,22 @@ function Portifolio() {
           </ul>
           <ul>
             <li>
-              <a href="https://github.com/Marcosviana91/projeto_pessoal.CHAT_BACK-END">
+              <a
+                href="https://github.com/Marcosviana91/projeto_pessoal.CHAT_BACK-END"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Veja a fonte
               </a>
             </li>
             <li>
-              <a href="http://marcosvianadev2.ddns.net:3133/chat">Visitar</a>
+              <a
+                href="http://marcosvianadev2.ddns.net:3133/chat"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visitar
+              </a>
             </li>
           </ul>
         </div>
