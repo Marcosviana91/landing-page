@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 const StyledHeader = styled.header`
   height: 20vh;
@@ -9,6 +10,13 @@ const StyledHeader = styled.header`
   align-items: center;
   /* background-color: red; */
   background-image: linear-gradient(to bottom, #010031 40%, #010031a6);
+
+  @media (max-width: ${variaveis.BRACKPOINTS.MOBILE}) {
+    padding-top: 1vh;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
 
   h1,
   p {
@@ -43,6 +51,9 @@ const StyledHeader = styled.header`
         font-size: 24px;
         color: white;
         cursor: pointer;
+        @media (max-width: ${variaveis.BRACKPOINTS.MOBILE}) {
+          font-size: 20px;
+        }
 
         &:first-child {
           border-top-left-radius: 12px;

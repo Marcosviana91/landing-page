@@ -6,6 +6,7 @@ import Footer from '../../containers/Footer'
 
 function Home() {
   const [navBarActivate, setNavBarActivate] = useState('about')
+
   return (
     <>
       <Header

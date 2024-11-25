@@ -59,8 +59,9 @@ function sortTechs() {
     'Linux',
     'Python',
     'FastAPI',
+    'Django',
     'Uvicorn',
-    'REST',
+    'RestAPI',
     'GaphQL',
     'SQLModel',
     'Full-Stack'

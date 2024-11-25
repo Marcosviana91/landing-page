@@ -2,12 +2,16 @@ import { styled } from 'styled-components'
 import variaveis from '../../styles/variaveis'
 
 const StyledPortifolio = styled.section`
-  background-color: #afafafae;
+  background-color: #77959bad;
   padding: 16px;
-  box-shadow: 0 0 20px 20px #afafafae;
+  box-shadow: 0 0 20px 20px #77959bad;
   width: 100%;
   max-height: 60vh;
   overflow-y: scroll;
+
+  p {
+    text-indent: 0.5in;
+  }
 
   @media (max-width: ${variaveis.BRACKPOINTS.MOBILE}) {
     max-height: 50vh;
@@ -59,22 +63,9 @@ const StyledPortifolio = styled.section`
     }
   }
 
-  #frontend {
-    > div {
-    }
-
-    #patricia {
-      /* Esquema de cores do próprio site da Patrícia:
-      https://www.patricianegraocruz.com.br/ */
-      background-color: #efcab7;
-      border: 2px solid #a06e52;
-    }
-  }
-
-  #backend {
-    #chat {
-      background-color: #7a7a7a;
-      border: 1px solid black;
+  #faith-battle-app {
+    img {
+      max-width: 175px;
     }
   }
 `

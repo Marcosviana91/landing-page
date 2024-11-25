@@ -1,9 +1,9 @@
 import { styled } from 'styled-components'
 
 const StyledSobre = styled.section`
-  background-color: #afafafae;
+  background-color: #77959bad;
   padding: 16px;
-  box-shadow: 0 0 20px 20px #afafafae;
+  box-shadow: 0 0 20px 20px #77959bad;
 
   img {
     width: 100px;
@@ -18,6 +18,11 @@ const StyledSobre = styled.section`
   }
   > h2 {
     margin: 16px;
+  }
+  h3 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    text-align: center;
   }
 
   > p {

@@ -1,9 +1,9 @@
 import { styled } from 'styled-components'
 
 const StyledSocial = styled.section`
-  background-color: #afafafae;
+  background-color: #77959bad;
   padding: 16px;
-  box-shadow: 0 0 20px 20px #afafafae;
+  box-shadow: 0 0 20px 20px #77959bad;
   width: 100%;
 
   > img {

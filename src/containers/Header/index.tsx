@@ -1,7 +1,7 @@
 import StyledHeader from './style'
 
 type Props = {
-  navBarActivate: string
+  navBarActivate: string //'about' | 'jobs' | 'social'
   setNavBarActivate: (value: string) => void
 }
 

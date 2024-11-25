@@ -1,7 +1,5 @@
 import { styled } from 'styled-components'
 
-import variaveis from '../../styles/variaveis'
-
 const StyledUnderlay = styled.div`
   z-index: -1;
   background-color: #535353;
@@ -10,18 +8,15 @@ const StyledUnderlay = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   display: flex;
   align-items: center;
   overflow: hidden;
 
-  @media (max-width: ${variaveis.BRACKPOINTS.MOBILE}) {
-    height: 90vh;
-  }
-
   ul {
+    transform: scaleY(0.8);
     li {
       font-size: 1.5rem;
       /* text-shadow: 0px 0px 6px white; */

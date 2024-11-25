@@ -13,7 +13,17 @@ function Sobre() {
         Apaixonado por tecnologia, sempre a viu como um hobbie. Então decidiu
         fazer migração de carreira para área de programação.
       </p>
-      <h2>Atualmente</h2>
+      <h3>Principais tecnologias:</h3>
+      <ul>
+        <li>
+          <strong>Back-End</strong>: Python, Django, FastAPI, GrapQL.
+        </li>
+        <li>
+          <strong>Front-End:</strong> jQuery, Bootstrap, TailwindCSS, React,
+          StyledComponents, Less, Sass.
+        </li>
+      </ul>
+      {/* <h2>Atualmente</h2>
       <ul>
         <li>
           <em>Análise e Desenvolvimento de Sistemas</em> - 5º período, na{' '}
@@ -28,7 +38,7 @@ function Sobre() {
           </a>
           .
         </li>
-      </ul>
+      </ul> */}
     </StyledSobre>
   )
 }

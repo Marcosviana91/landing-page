@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion'
 import StyledPortifolio from './style'
 
-import patriciaImg from '../../assets/images/Patricia_Negrão-800x450.png'
+import Faith_Battle_Site from '../../assets/images/Faith_Battle_Site.png'
+import Faith_Battle_App1_Login from '../../assets/images/Faith_Battle_App1_Login.png'
+import Faith_Battle_App1_Jogando from '../../assets/images/Faith_Battle_App1_Jogando.png'
 
 function Portifolio() {
   return (
@@ -11,19 +13,22 @@ function Portifolio() {
         layoutId="profile-picture"
         src="https://github.com/marcosviana91.png"
       />
-      <div id="frontend">
+      <div id="full-stack">
+        <p>
+          Um projeto ambicioso que visa criar uma plataforma de jogos de cartas.
+          Com API, DB, aplicativos Mobile para Android.
+        </p>
         <h2>Front-End</h2>
-        <div id="patricia">
-          <h3>Patrícia Negrão Consultoria</h3>
-          <img src={patriciaImg} alt="Screenshot da página" />
+        <div id="faith-battle">
+          <h3>Faith Battle - fã page</h3>
+          <img src={Faith_Battle_Site} alt="Screenshot da página" />
           <ul>
             <li>jQuery</li>
             <li>Bootstrap</li>
-            <li>Gulp</li>
-            <li>SASS</li>
+            <li>Django</li>
           </ul>
           <ul>
-            <li>
+            {/* <li>
               <a
                 href="https://github.com/Marcosviana91/landing-page-patricia-negrao-cruz"
                 target="_blank"
@@ -31,55 +36,47 @@ function Portifolio() {
               >
                 Veja a fonte
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.patricianegraocruz.com.br/"
+                href="https://faith-battle.marcosvianadev.com.br/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Visitar
+                Veja mais...
               </a>
             </li>
           </ul>
         </div>
-      </div>
-      <div id="backend">
-        <h2>Back-End</h2>
-        <div id="chat">
-          <h3>Chat com FastAPI</h3>
-          <iframe
-            width="350"
-            height="200"
-            src="https://www.youtube.com/embed/wgB1z0zqKw8?si=HpnDtdTTFdOg9Ur3&amp;controls=0"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-          ></iframe>
+        <h2>Mobile</h2>
+        <div id="faith-battle-app">
+          <h3>Faith Battle - Jogo não oficial</h3>
+          <div>
+            <img src={Faith_Battle_App1_Login} alt="Screenshot da página" />
+            <img src={Faith_Battle_App1_Jogando} alt="Screenshot da página" />
+          </div>
           <ul>
-            <li>FastAPI</li>
-            <li>Docker</li>
-            <li>GraphQL</li>
-            <li>React</li>
+            <li>TypeScript</li>
+            <li>ReactNative</li>
+            <li>ExpoGo</li>
           </ul>
           <ul>
-            <li>
+            {/* <li>
               <a
-                href="https://github.com/Marcosviana91/projeto_pessoal.CHAT_BACK-END"
+                href="https://github.com/Marcosviana91/landing-page-patricia-negrao-cruz"
                 target="_blank"
                 rel="noreferrer"
               >
                 Veja a fonte
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="http://marcosvianadev2.ddns.net:3133/chat"
+                href="https://faith-battle.marcosvianadev.com.br/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Visitar
+                Veja mais...
               </a>
             </li>
           </ul>
