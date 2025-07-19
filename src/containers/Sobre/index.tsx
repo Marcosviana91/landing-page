@@ -16,11 +16,19 @@ function Sobre() {
       <h3>Principais tecnologias:</h3>
       <ul>
         <li>
-          <strong>Back-End</strong>: Python, Django, FastAPI, GrapQL.
+          <p>
+            <small>
+              <strong>Back-End</strong>: Python, Django, FastAPI, GrapQL.
+            </small>
+          </p>
         </li>
         <li>
-          <strong>Front-End:</strong> jQuery, Bootstrap, TailwindCSS, React,
-          StyledComponents, Less, Sass.
+          <p>
+            <small>
+              <strong>Front-End:</strong> jQuery, Bootstrap, TailwindCSS, React,
+              StyledComponents, Less, Sass.
+            </small>
+          </p>
         </li>
       </ul>
       {/* <h2>Atualmente</h2>

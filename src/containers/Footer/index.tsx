@@ -4,11 +4,25 @@ import StyledFooter from './style'
 // Icons
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
-function Footer() {
+type Props = {
+  navBarActivate: string //'about' | 'jobs' | 'social'
+}
+
+function Footer(props: Props) {
   return (
     <StyledFooter>
       <div className="container">
-        <strong>Marcos Viana</strong>
+        <motion.strong
+          animate={{
+            x: props.navBarActivate === 'social' ? 23 : 0
+          }}
+          transition={{
+            ease: 'linear',
+            delay: 0.2
+          }}
+        >
+          Marcos Viana
+        </motion.strong>
         <motion.a
           layoutId="my-linkedin"
           href="https://www.linkedin.com/in/marcos-viana-full-stack-python/"

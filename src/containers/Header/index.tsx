@@ -8,8 +8,6 @@ type Props = {
 function Header(props: Props) {
   return (
     <StyledHeader>
-      <h1>Marcos Viana</h1>
-      <p>Entusiasta apaixonado por tecnologia e programação</p>
       <nav className="container">
         <ul>
           <li
@@ -32,6 +30,8 @@ function Header(props: Props) {
           </li>
         </ul>
       </nav>
+      <h1>Marcos Viana</h1>
+      <p>Entusiasta apaixonado por tecnologia e programação</p>
     </StyledHeader>
   )
 }

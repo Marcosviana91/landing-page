@@ -13,13 +13,17 @@ const EstiloGlobal = createGlobalStyle`
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 28pt;
   }
   h2 {
-    font-size: 1.75rem;
+    font-size: 24pt;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 20pt;
+  }
+
+  p {
+    font-size: 18pt;
   }
 
   ul li {
