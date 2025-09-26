@@ -46,7 +46,7 @@ const StyledHeader = styled.header`
         color: white;
         cursor: pointer;
         @media (max-width: ${variaveis.BRACKPOINTS.MOBILE}) {
-          font-size: 20pt;
+          font-size: 14pt;
         }
 
         &:first-child {
